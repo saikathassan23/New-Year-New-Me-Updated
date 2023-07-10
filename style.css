@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+/* COMMON SECTION */
+.common-btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+/* HEADER SECTION */
+.header-content {
+  height: 100vh;
+  background: url('./images/banner/banner1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.header-container {
+  width: 525px;
+  margin-right: 230px;
+  text-align: right;
+}
+.header-title {
+  color: #151414;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.header-desc {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 30px;
+  margin-bottom: 32px;
+}
+
+/* FAILURE SECTION */
+.section-failure {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 140px;
+}
+.section-failure ul {
+  list-style: none;
+}
+
+.failure-container {
+  width: 420px;
+}
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failure-desc {
+  color: #444343;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 15px;
+}
+.section-failure ul > li {
+  color: #444343;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+.fa-check {
+  width: 24px;
+  height: 24px;
+  color: #16d887;
+}
+.section-failure img {
+  height: 650px;
+  position: absolute;
+  left: -18px;
+  bottom: 0px;
+}
+.failure-img-container {
+  width: 480px;
+  height: 480px;
+  background: rgba(241, 91, 34, 0.2);
+
+  border-radius: 240px;
+  position: relative;
+}
+
+/* MY PLAN SECTION  */
+.my-plan-container {
+  background-image: url('./images/watch.png'), url('./images/gradient3.png');
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-size: cover;
+  border-radius: 5px;
+  margin-bottom: 130px;
+}
+.plan-heading-container {
+  width: 500px;
+}
+#plan-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 64px;
+  padding-top: 59px;
+  margin-bottom: 24px;
+}
+.call-now-btn {
+  background-color: white;
+  color: #f15b22;
+  padding: 20px 35px;
+  margin-left: 64px;
+}
